@@ -1,0 +1,30 @@
+{
+	"Create a function": {
+		"prefix": "def",
+		"body": [
+			"def ${1:name}(${2:args}):",
+			"    pass",
+		],
+		"description": "Create a function template"
+	},
+	"Create an unittest": {
+		"prefix": "unittest",
+		"body": [
+			"import unittest",
+			"from ${1:module} import ${2:object}",
+			"",
+			"",
+			"class Test${2}(unittest.TestCase):",
+			"    def setUp(self):",
+			"        pass",
+			"",
+			"    def test_${3:function}(${4:args}):",
+			"        pass",
+			"",
+			"",
+			"if __name__ == \"__main__\":",
+			"    unittest.main()",
+		],
+		"description": "Create an unittest template"
+	}
+}
