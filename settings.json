@@ -5,7 +5,7 @@
   "editor.minimap.enabled": false,
   "editor.hover.delay": 1000,
   "editor.glyphMargin": false,
-  "workbench.layoutControl.enabled": true,
+  "workbench.layoutControl.enabled": false,
   "workbench.startupEditor": "none",
   "workbench.iconTheme": "material-icon-theme",
   "[python]": {
