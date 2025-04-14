@@ -1,6 +1,10 @@
 {
+  "files.exclude": {
+    "**/__pycache__/": true
+  },
   "editor.fontSize": 20,
   "editor.letterSpacing": 0.5,
+  "editor.rulers": [80],
   "terminal.integrated.fontSize": 18,
   "editor.minimap.enabled": false,
   "editor.hover.delay": 1000,
@@ -100,7 +104,10 @@
   "code-runner.showExecutionMessage": false,
   "code-runner.saveFileBeforeRun": true,
   "code-runner.saveAllFilesBeforeRun": true,
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "jupyter.askForKernelRestart": false,
-  "workbench.colorTheme": "Theme Darker"
+  "workbench.colorTheme": "Theme Darker",
+  "extensions.ignoreRecommendations": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "tabnine.experimentalAutoImports": true
 }
